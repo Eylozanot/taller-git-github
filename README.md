@@ -429,7 +429,7 @@ git clone <url_del_repositorio_remoto>
 **Ejemplo:**
 
 ```
-git clone https://github.com/josejuansanchez/taller-git-github.git
+git clone https://github.com/Eylozanot/taller-git-github.git
 ```
 
 Al clonar este repositorio se nos creará un directorio en nuestra máquina con el nombre `taller-git-github` con el contenido del repositorio remoto.
@@ -447,7 +447,7 @@ git remote add <alias> <url_del_repositorio_remoto>
 Suponemos que ya tenemos creado un repositorio local y queremos añadir el repositorio remoto del taller de git. En este caso hemos usado `taller-git` como alias. Este sería el comando que tendríamos que ejecutar:
 
 ```
-git remote add taller-git https://github.com/josejuansanchez/taller-git-github.git
+git remote add taller-git https://github.com/Eylozanot/taller-git-github.git
 ```
 
 Para comprobar si el repositorio remoto se ha añadido correctamente ejecutamos:
@@ -459,8 +459,8 @@ git remote -v
 El comando anterior nos devolverá estas dos líneas:
 
 ```
-taller-git	https://github.com/josejuansanchez/taller-git-github.git (fetch)
-taller-git	https://github.com/josejuansanchez/taller-git-github.git (push)
+taller-git	https://github.com/Eylozanot/taller-git-github.git (fetch)
+taller-git	https://github.com/Eylozanot/taller-git-github.git (push)
 ```
 
 La primera línea acabada con la palabra *(fectch)* indica que esa es la url del repositorio remoto desde el que podemos recibir cambios.
@@ -614,11 +614,8 @@ Se recomienda leer el [capítulo 6: GitHub][4], del libro [Pro Git][3] de Scott 
 
 ## Autor
 
-Este material ha sido desarrollado por [José Juan Sánchez](http://josejuansanchez.org).
+Este material ha sido desarrollado por [Ing. Eliana Yineth Lozano Triana - Instructora Especialidad Sistemas](eylozano@sena.edu.co).
 
-## Licencia
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
 
 [1]: https://github.com
 [2]: https://git-scm.com/book/es/v2/Ramificaciones-en-Git-%C2%BFQu%C3%A9-es-una-rama%3F
