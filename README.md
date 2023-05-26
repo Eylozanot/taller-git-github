@@ -614,7 +614,7 @@ Se recomienda leer el [capítulo 6: GitHub][4], del libro [Pro Git][3] de Scott 
 
 ## Instructor
 
-[Ing. Eliana Yineth Lozano Triana - Instructora Especialidad Sistemas](eylozano@sena.edu.co).
+Ing. Eliana Yineth Lozano Triana - Instructora Especialidad Sistemas(eylozano@sena.edu.co).
 
 
 [1]: https://github.com
