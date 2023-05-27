@@ -1,0 +1,28 @@
+body{
+    background: #000; /*Fondo completo para toda la pantalla*/
+}
+.logo{
+width: 150px; /*asignamos un ancho*/
+height: 250px;/*asignamos un alto*/
+
+box-sizing: border-box; /*Definimos el tamaño de la caja*/
+position: absolute; /*con posición absoluta*/
+top: 50%; /*ubicamos arriba*/
+left: 50%; /*ubicamos abajo*/
+transform: translate(-50%,-50); /*Recolocamos un elemento en el eje horizontal y/o vertical*/
+border-right: 50px solid#a90003; /*establecemos el ancho, estilo y el color del borde derecho de un elemento*/
+border-left: 50px solid#a90003;/*establecemos el ancho, estilo y el color del borde izquierdo de un elemento*/
+}
+.logo::before{
+    content: '';
+    display: block; /*indicamos que es el 100% de ancho, es decir que ocupara todo el espacio disponible por defecto*/
+    position: absolute; /*para que quede por encima*/
+    width: 50px;
+    height: 250px;
+    top: 0; /*determinamos la ubicación final del elemento */
+    left: 0;/*determinamos la ubicación final del elemento */
+    background: #db0001;
+    transform: skewX(21.8deg); /*Inclinamos la pata*/
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);/*asignamos sombra para que haga relieve*/
+}
+
